@@ -1,0 +1,4 @@
+x=-5:0.1:5;
+y1=x.*x-3*x+1;
+y2=zeros(size(x));
+plot(x,y1,x,y2);
