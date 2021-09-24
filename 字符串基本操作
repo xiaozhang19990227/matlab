@@ -1,0 +1,30 @@
+ch='ABC123d4e56Fg9';
+>> subch=ch(1:5)
+
+subch =
+
+    'ABC12'
+
+>> revch=ch(end:-1:1)
+
+revch =
+
+    '9gF65e4d321CBA'
+
+>> k=find(ch>='a'&ch<='z')
+
+k =
+
+     7     9    13
+
+>> ch(k)=ch(k)-('a'-'A')
+
+ch =
+
+    'ABC123D4E56FG9'
+
+>> length(k)
+
+ans =
+
+     3
