@@ -1,0 +1,13 @@
+>> p=findstr('this is a test!','is')
+
+p =
+
+     3     6
+
+>> result=strrep('this is a test!','test','class')
+
+result =
+
+    'this is a class!'
+
+>> 
