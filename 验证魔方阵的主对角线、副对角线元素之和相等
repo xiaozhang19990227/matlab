@@ -1,0 +1,15 @@
+>> A=magic(5);
+>> D1=diag(A);
+>> sum(D1)
+
+ans =
+
+      65       
+
+>> B=flipud(A);
+>> D2=diag(B);
+>> sum(D2)
+
+ans =
+
+      65       
