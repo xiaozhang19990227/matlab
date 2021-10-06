@@ -1,0 +1,26 @@
+>> clear all;
+>> a1=int8(6);
+>> a2=int16(-20);
+>> a3=uint32(100);
+>> a4=uint64(200);
+>> b1=single(3.5);
+>> b2=12;
+>> c1=true;
+>> c2={1,1};
+>> c3='hello';
+>> c4.name='robin';
+>> d=@cos;
+>> whos
+  Name      Size            Bytes  Class              Attributes
+
+  a1        1x1                 1  int8                         
+  a2        1x1                 2  int16                        
+  a3        1x1                 4  uint32                       
+  a4        1x1                 8  uint64                       
+  b1        1x1                 4  single                       
+  b2        1x1                 8  double                       
+  c1        1x1                 1  logical                      
+  c2        1x2               224  cell                         
+  c3        1x5                10  char                         
+  c4        1x1               178  struct                       
+  d         1x1                32  function_handle              
