@@ -1,0 +1,63 @@
+>> a=123.34
+
+a =
+
+  123.3400
+
+>> b=single(a)
+
+b =
+
+  single
+
+  123.3400
+
+>> c1=double(a)
+
+c1 =
+
+  123.3400
+
+>> c2=int16(a)
+
+c2 =
+
+  int16
+
+   123
+
+>> c3=int32(a)
+
+c3 =
+
+  int32
+
+   123
+
+>> d1=[realmin('single') realmax('single')]
+
+d1 =
+
+  1×2 single 行向量
+
+   1.0e+38 *
+
+    0.0000    3.4028
+
+>> d1=[realmin('double') realmax('double')]
+
+d1 =
+
+  1.0e+308 *
+
+    0.0000    1.7977
+
+>> whos
+  Name      Size            Bytes  Class     Attributes
+
+  a         1x1                 8  double              
+  b         1x1                 4  single              
+  c1        1x1                 8  double              
+  c2        1x1                 2  int16               
+  c3        1x1                 4  int32               
+  d1        1x2                16  double              
