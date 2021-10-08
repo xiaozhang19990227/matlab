@@ -1,0 +1,33 @@
+>> a='My name is 张三'
+
+a =
+
+    'My name is 张三'
+
+>> b=char([65 66 67 68])
+
+b =
+
+    'ABCD'
+
+>> int8('hello')
+
+ans =
+
+  1×5 int8 行向量
+
+   104   101   108   108   111
+
+>> d='张'
+
+d =
+
+    '张'
+
+>> whos
+  Name      Size            Bytes  Class    Attributes
+
+  a         1x13               26  char               
+  ans       1x5                 5  int8               
+  b         1x4                 8  char               
+  d         1x1                 2  char               
