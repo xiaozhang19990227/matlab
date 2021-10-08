@@ -1,0 +1,47 @@
+>> f1=@char
+
+f1 =
+
+  包含以下值的 function_handle:
+
+    @char
+
+>> s1=func2str(f1)
+
+s1 =
+
+    'char'
+
+>> f2=str2func(s1)
+
+f2 =
+
+  包含以下值的 function_handle:
+
+    @char
+
+>> functions(f1)
+
+ans = 
+
+  包含以下字段的 struct:
+
+    function: 'char'
+        type: 'simple'
+        file: 'MATLAB built-in function'
+
+>> isa(f1,'function_handle')
+
+ans =
+
+  logical
+
+   1
+
+>> isequal(f1,f2)
+
+ans =
+
+  logical
+
+   1
