@@ -1,0 +1,62 @@
+>> c={'中国','China';[1:4;2:5],10}
+
+c =
+
+  2×2 cell 数组
+
+    {'中国'    }    {'China'}
+    {2×4 double}    {[   10]}
+
+>> c{2,4}=100
+
+c =
+
+  2×4 cell 数组
+
+    {'中国'    }    {'China'}    {0×0 double}    {0×0 double}
+    {2×4 double}    {[   10]}    {0×0 double}    {[     100]}
+
+>> c(1,:)
+
+ans =
+
+  1×4 cell 数组
+
+    {'中国'}    {'China'}    {0×0 double}    {0×0 double}
+
+>> c(:,3)=[]
+
+c =
+
+  2×3 cell 数组
+
+    {'中国'    }    {'China'}    {0×0 double}
+    {2×4 double}    {[   10]}    {[     100]}
+
+>> d={'北京','Beijing';[],3}
+
+d =
+
+  2×2 cell 数组
+
+    {'北京'    }    {'Beijing'}
+    {0×0 double}    {[      3]}
+
+>> e=[c,d]
+
+e =
+
+  2×5 cell 数组
+
+    {'中国'    }    {'China'}    {0×0 double}    {'北京'    }    {'Beijing'}
+    {2×4 double}    {[   10]}    {[     100]}    {0×0 double}    {[      3]}
+
+>> e(2,:)=[]
+
+e =
+
+  1×5 cell 数组
+
+    {'中国'}    {'China'}    {0×0 double}    {'北京'}    {'Beijing'}
+
+>> 
