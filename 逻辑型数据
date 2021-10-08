@@ -1,0 +1,35 @@
+>> a1=true
+
+a1 =
+
+  logical
+
+   1
+
+>> a2=false
+
+a2 =
+
+  logical
+
+   0
+
+>> a3=true(3,4)
+
+a3 =
+
+  3×4 logical 数组
+
+   1   1   1   1
+   1   1   1   1
+   1   1   1   1
+
+>> a4=false(3)
+
+a4 =
+
+  3×3 logical 数组
+
+   0   0   0
+   0   0   0
+   0   0   0
