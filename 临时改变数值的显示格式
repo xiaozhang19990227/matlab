@@ -1,0 +1,32 @@
+>> format short
+>> a=12.345
+
+a =
+
+   12.3450
+
+>> f1=get(0,'format')
+
+f1 =
+
+    'short'
+
+>> set(0,'format','rational')
+>> b=a
+
+b =
+
+    2469/200   
+
+>> f2=get(0,'format')
+
+f2 =
+
+    'rational'
+
+>> set(0,'format',f1)
+>> c=a
+
+c =
+
+   12.3450
