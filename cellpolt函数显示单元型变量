@@ -1,0 +1,26 @@
+>> c={'中国','China';[1:4],100}
+
+c =
+
+  2×2 cell 数组
+
+    {'中国'   }    {'China'}
+    {[1 2 3 4]}    {[  100]}
+
+>> figure;
+>> out=cellplot(c,'legend')
+
+out = 
+
+  8×1 graphics 数组:
+
+  Surface
+  Surface
+  Text       (中国)
+  Surface
+  Text       (China)
+  Surface
+  Surface
+  Text       (100)
+
+>> 
