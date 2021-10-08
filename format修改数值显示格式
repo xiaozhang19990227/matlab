@@ -1,0 +1,57 @@
+>> format short
+>> a=12.3456789
+
+a =
+
+   12.3457
+
+>> format short
+>> a
+
+a =
+
+   12.3457
+
+>> format long
+>> a
+
+a =
+
+  12.345678899999999
+
+>> format long e
+>> a
+
+a =
+
+     1.234567890000000e+01
+
+>> format short e
+>> a
+
+a =
+
+   1.2346e+01
+
+>> format bank
+>> a
+
+a =
+
+         12.35
+
+>> format +
+>> a
+
+a =
+
++
+
+>> format rational
+>> a
+
+a =
+
+    1000/81    
+
+>> format short
