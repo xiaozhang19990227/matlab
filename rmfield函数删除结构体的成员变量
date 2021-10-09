@@ -1,0 +1,26 @@
+>> s1=struct('type',{'big','litter'},'color',{'red'},'data',{[1 2 3;2 3 4] [1:4]})
+
+s1 = 
+
+  包含以下字段的 1×2 struct 数组:
+
+    type
+    color
+    data
+
+>> s2=rmfield(s1,'color')
+
+s2 = 
+
+  包含以下字段的 1×2 struct 数组:
+
+    type
+    data
+
+>> s3=rmfield(s1,{'type','color'})
+
+s3 = 
+
+  包含以下字段的 1×2 struct 数组:
+
+    data
