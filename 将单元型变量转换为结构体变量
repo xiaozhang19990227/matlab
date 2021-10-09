@@ -1,0 +1,26 @@
+>> c={'Dr.Zhang',1.8,20110001,[89 90 96]}
+
+c =
+
+  1×4 cell 数组
+
+    {'Dr.Zhang'}    {[1.8000]}    {[20110001]}    {[89 90 96]}
+
+>> fields={'name','height','num','score'}
+
+fields =
+
+  1×4 cell 数组
+
+    {'name'}    {'height'}    {'num'}    {'score'}
+
+>> s=cell2struct(c,fields,2)
+
+s = 
+
+  包含以下字段的 struct:
+
+      name: 'Dr.Zhang'
+    height: 1.8000
+       num: 20110001
+     score: [89 90 96]
