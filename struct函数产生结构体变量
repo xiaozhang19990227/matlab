@@ -1,0 +1,29 @@
+>> s1=struct('type',{'big','little'},'color',{'red'},'date',{[1 2 3;2 3 4] [1:4]})
+
+s1 = 
+
+  包含以下字段的 1×2 struct 数组:
+
+    type
+    color
+    date
+ 
+>> s1(1)
+
+ans = 
+
+  包含以下字段的 struct:
+
+     type: 'big'
+    color: 'red'
+     date: [2×3 double]
+
+>> s1(2)
+
+ans = 
+
+  包含以下字段的 struct:
+
+     type: 'little'
+    color: 'red'
+     date: [1 2 3 4]
