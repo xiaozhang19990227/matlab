@@ -1,0 +1,77 @@
+>> stu(1).name='Zhang san';
+>> stu(1).age=28;
+>> stu(1).gender='Male';
+>> stu(2).name='Li Si';
+>> stu(2).age=30;
+>> stu(2).gender='Male';
+>> stu
+
+stu = 
+
+  包含以下字段的 1×2 struct 数组:
+
+    name
+    age
+    gender
+
+>> stu(1)
+
+ans = 
+
+  包含以下字段的 struct:
+
+      name: 'Zhang san'
+       age: 28
+    gender: 'Male'
+
+>> stu(2)
+
+ans = 
+
+  包含以下字段的 struct:
+
+      name: 'Li Si'
+       age: 30
+    gender: 'Male'
+
+>> stu(1).score=[89 78 92 79 85];
+>> stu(1).num=20110002;
+>> stu(2).score=[78 86 83 91 82];
+>> stu(2).num=20110001;
+>> stu
+
+stu = 
+
+  包含以下字段的 1×2 struct 数组:
+
+    name
+    age
+    gender
+    score
+    num
+
+>> stu(1)
+
+ans = 
+
+  包含以下字段的 struct:
+
+      name: 'Zhang san'
+       age: 28
+    gender: 'Male'
+     score: [89 78 92 79 85]
+       num: 20110002
+
+>> stu(2)
+
+ans = 
+
+  包含以下字段的 struct:
+
+      name: 'Li Si'
+       age: 30
+    gender: 'Male'
+     score: [78 86 83 91 82]
+       num: 20110001
+
+>> 
