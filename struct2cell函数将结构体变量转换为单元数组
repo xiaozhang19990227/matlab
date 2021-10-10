@@ -1,0 +1,34 @@
+>> s(1).name='Robin';
+>> s(1).sex='Male';
+>> s(1).num=20110001;
+>> s(1).room=203;
+>> s(2).name='Tom';
+>> s
+
+s = 
+
+  包含以下字段的 1×2 struct 数组:
+
+    name
+    sex
+    num
+    room
+
+>> c=struct2cell(s)
+
+  4×1×2 cell 数组
+
+c(:,:,1) = 
+
+    {'Robin'   }
+    {'Male'    }
+    {[20110001]}
+    {[     203]}
+
+
+c(:,:,2) = 
+
+    {'Tom'     }
+    {0×0 double}
+    {0×0 double}
+    {0×0 double}
