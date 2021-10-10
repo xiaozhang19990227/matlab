@@ -1,0 +1,38 @@
+>> s=struct('name',{'Robin','Tom'},'sex',{'Male','Male'},'score',[87 89 94]);
+>> s(1).name
+
+ans =
+
+    'Robin'
+
+>> s(1).sex
+
+ans =
+
+    'Male'
+
+>> s(1).score
+
+ans =
+
+    87    89    94
+
+>>  s(1).score(3)
+
+ans =
+
+    94
+
+>> mean(s(1).score)
+
+ans =
+
+    90
+    
+>> max(s(1).score)
+
+ans =
+
+    94
+
+>> 
