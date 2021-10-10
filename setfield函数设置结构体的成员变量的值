@@ -1,0 +1,51 @@
+>>  s3=struct('name',{'Robin','Tom'},'sex',{'Male','Male'},'score',[87 89 94])
+
+s3 = 
+
+  包含以下字段的 1×2 struct 数组:
+
+    name
+    sex
+    score
+
+>> s1=struct('one',1,'two',2)
+
+s1 = 
+
+  包含以下字段的 struct:
+
+    one: 1
+    two: 2
+
+>>  s2=setfield(s1,'one',3)
+
+s2 = 
+
+  包含以下字段的 struct:
+
+    one: 3
+    two: 2
+
+>> s4=setfield(s3,{1,2},'score',[78 76 99 81])
+
+s4 = 
+
+  包含以下字段的 1×2 struct 数组:
+
+    name
+    sex
+    score
+
+>> s3(1,2).score
+
+ans =
+
+    87    89    94
+
+>> s4(1,2).score
+
+ans =
+
+    78    76    99    81
+
+>> 
