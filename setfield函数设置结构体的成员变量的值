@@ -1,0 +1,48 @@
+>> s1=struct('one',1,'two',2)
+
+s1 = 
+
+  包含以下字段的 struct:
+
+    one: 1
+    two: 2
+
+>> f1=getfield(s1,'one')
+
+f1 =
+
+     1
+
+>> s2=struct('name',{'Robin','Tom'},'sex',{'Male','Male'},'score',[87 89 94])
+
+s2 = 
+
+  包含以下字段的 1×2 struct 数组:
+
+    name
+    sex
+    score
+
+>> f2=getfield(s2,{1,2},'name')
+
+f2 =
+
+    'Tom'
+
+>> f3=s2(1,2).name
+
+f3 =
+
+    'Tom'
+
+>> f4=getfield(s2,{1,2},'score',{2})
+
+f4 =
+
+    89
+
+>> f5=s2(1,2).score(2)
+
+f5 =
+
+    89
