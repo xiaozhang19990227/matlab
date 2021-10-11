@@ -1,0 +1,39 @@
+>> format long;
+>> a=3.14159+eps
+
+a =
+
+   3.141590000000000
+
+>> b=3.14159
+
+b =
+
+   3.141590000000000
+
+>> c1=a==b
+
+c1 =
+
+  logical
+
+   1
+
+>> c2=a>b
+
+c2 =
+
+  logical
+
+   0
+
+>> c3=abs(a-b)<1e-10
+
+c3 =
+
+  logical
+
+   1
+
+>> format short;
+>> 
