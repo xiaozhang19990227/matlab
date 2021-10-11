@@ -1,0 +1,39 @@
+>> a=20;
+>> b=23;
+>> c1=dec2bin(a)
+
+c1 =
+
+    '10100'
+
+>> c2=dec2bin(b)
+
+c2 =
+
+    '10111'
+
+>> d1=bitand(a,b)
+
+d1 =
+
+    20
+
+>> d2=dec2bin(bitand(a,b))
+
+d2 =
+
+    '10100'
+
+>> d3=dec2bin(bitor(a,b))
+
+d3 =
+
+    '10111'
+
+>> d4=dec2bin(bitxor(a,b))
+
+d4 =
+
+    '11'
+
+>> d5=dec2bin(bitcmp(A,6))
