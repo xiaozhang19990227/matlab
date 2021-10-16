@@ -1,0 +1,33 @@
+>> t1=datestr(now)
+
+t1 =
+
+    '16-Oct-2021 12:55:39'
+
+>> t2=datestr(now,'dd-mmm-yyyy')
+
+t2 =
+
+    '16-Oct-2021'
+
+>> 
+>> t3=datestr(now,1)
+
+t3 =
+
+    '16-Oct-2021'
+
+
+>> t4=datestr(now,'HH:MM:SS')
+
+t4 =
+
+    '13:02:54'
+
+>> t5=datestr(now,13)
+
+t5 =
+
+    '13:03:53'
+
+>> 
