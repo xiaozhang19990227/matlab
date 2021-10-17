@@ -1,0 +1,37 @@
+>> A=[11 0 0 1 5]
+
+A =
+
+    11     0     0     1     5
+
+>> f1=isempty(A)
+
+f1 =
+
+  logical
+
+   0
+
+>> f2=isscalar(A)
+
+f2 =
+
+  logical
+
+   0
+
+>> f3=isvector(A)
+
+f3 =
+
+  logical
+
+   1
+
+>> issparse(A)
+
+ans =
+
+  logical
+
+   0
