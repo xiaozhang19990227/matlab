@@ -1,0 +1,26 @@
+>> A=[11 0 0 1 5]
+
+A =
+
+    11     0     0     1     5
+
+>> B=A>0
+
+B =
+
+  1×5 logical 数组
+
+   1   0   0   1   1
+
+>> C=['a','b','c']
+
+C =
+
+    'abc'
+
+>> whos
+  Name      Size            Bytes  Class      Attributes
+
+  A         1x5                40  double               
+  B         1x5                 5  logical              
+  C         1x3                 6  char                 
