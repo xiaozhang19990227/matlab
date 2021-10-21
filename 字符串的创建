@@ -1,0 +1,40 @@
+>> str1='My name is';
+>> str2='Robin';str=[str1 str2]
+
+str =
+
+    'My name isRobin'
+
+>> 
+>> s=['Bob';'Tom']
+
+s =
+
+  2×3 char 数组
+
+    'Bob'
+    'Tom'
+
+>> c=char('Robinson','Tom')
+
+c =
+
+  2×8 char 数组
+
+    'Robinson'
+    'Tom     '
+
+>> celldata=cellstr(c)
+
+celldata =
+
+  2×1 cell 数组
+
+    {'Robinson'}
+    {'Tom'     }
+
+>> celldata{1}
+
+ans =
+
+    'Robinson'
