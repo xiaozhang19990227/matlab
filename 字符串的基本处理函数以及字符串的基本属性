@@ -1,0 +1,59 @@
+>> str='My name is Robinson ZHAO!';
+>> disp(str);
+My name is Robinson ZHAO!
+>> str_size=size(str)
+
+str_size =
+
+     1    25
+
+>> str(1:7)
+
+ans =
+
+    'My name'
+
+>> str2=str(end:-1:1)
+
+str2 =
+
+    '!OAHZ nosniboR si eman yM'
+
+>> str_ascii=double(str)
+
+str_ascii =
+
+  列 1 至 12
+
+    77   121    32   110    97   109   101    32   105   115    32    82
+
+  列 13 至 24
+
+   111    98   105   110   115   111   110    32    90    72    65    79
+
+  列 25
+
+    33
+
+>> char(str_ascii)
+
+ans =
+
+    'My name is Robinson ZHAO!'
+
+>> str3='大家好';
+>> str_ascii=double(str2)
+
+str_ascii =
+
+  列 1 至 12
+
+    33    79    65    72    90    32   110   111   115   110   105    98
+
+  列 13 至 24
+
+   111    82    32   115   105    32   101   109    97   110    32   121
+
+  列 25
+
+    77
